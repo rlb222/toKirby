@@ -4,8 +4,13 @@
 - This software is in progress. 
   
   
-## Install like a dashboard app
+## Install Perch dashboard app
 1. Copy the files from `\toKirby\` to the `\perch\addons\apps\tokirby\` folder.
+2. Start Perch, goto the dashboard  
+  
+  
+## Installation Kirby
+1. Install Kirby, for example https://github.com/getkirby/starterkit
 2. Install Kirby Block Preview, link below.
 
 
