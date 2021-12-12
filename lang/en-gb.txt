@@ -1,0 +1,5 @@
+{
+    "Namaskar Regions": "Namaskar Regions",
+    "Regions": "Regions",
+    "PerchtoKirby": "PerchtoKirby"
+}
