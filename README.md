@@ -1,7 +1,7 @@
 # toKirby
  Perch Dashboard app for exporting content to (Kirby) text files and Kirby Blueprint files
 
-- This software is not ready yet. 
+- This software is in progress. 
   
   
 ## Install like a dashboard app
