@@ -38,12 +38,6 @@ The Blueprint files are set up to use this Kirby Plugin.
 
 
 
-## To install Kirby Fields Block plugin
-
-[Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block) plugin to directly render block fields, allowing for inline editing.
-
-
-
 ## Screenshots
   
 ### Perch Dashboard
@@ -51,3 +45,10 @@ The Blueprint files are set up to use this Kirby Plugin.
 
 ### List of Pages to export
 <img src="/screenshots/toKirby_pagelist.png" width="600">
+
+
+
+### Installing Kirby Fields Block plugin
+
+[Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block) plugin to directly render block fields, allowing for inline editing.
+
