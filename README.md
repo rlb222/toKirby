@@ -6,7 +6,7 @@
   
 ## Install like a dashboard app
 1. Copy the files from `\toKirby\` to the `\perch\addons\apps\tokirby\` folder.
-2. Install Kirby Blick Preview, link below.
+2. Install Kirby Block Preview, link below.
 
 
 ## What the Dashboard app does
