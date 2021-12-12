@@ -27,7 +27,7 @@ Copy the files to your Kirby site.
   
 ## Use in Kirby
 You can install the Kirby Starter kit and copy exported Perch content into it.
-Also install the plugin `Kirby Block Preview` so the repeating regions will have inline editing similar to Perch Admin behaviour.  
+Also install the plugin `Kirby Fields Block` so the repeating regions will have inline editing similar to Perch Admin behaviour.  
 The Blueprint files are set up to use this Kirby Plugin.  
   
 ## ToDo
