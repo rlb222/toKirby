@@ -11,7 +11,7 @@
   
 ## Installation Kirby
 1. Install Kirby, for example https://github.com/getkirby/starterkit
-2. Install Kirby Block Preview: [block preview](https://getkirby.com/docs/reference/plugins/extensions/blocks).
+2. Install Kirby Block Preview: [block preview](https://github.com/jongacnik/kirby-fields-block).
 
 
 ## What the Dashboard app does
@@ -40,7 +40,8 @@ The Blueprint files are set up to use this Kirby Plugin.
 
 ## To install Kirby Fields Block plugin
 
-Kirby [block preview](https://getkirby.com/docs/reference/plugins/extensions/blocks) plugin to directly render block fields, allowing for inline editing.
+Kirby [block preview](https://github.com/jongacnik/kirby-fields-block) plugin to directly render block fields, allowing for inline editing.
+
 
 
 ## Screenshots
