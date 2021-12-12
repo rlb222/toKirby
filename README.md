@@ -22,7 +22,7 @@ The software will only export and doesn't alter anyting in your Perch install. E
 
 ## The exported files
 Blueprints are put in one folder: `/perch/kirby_site_name/site/blueprints/pages/`  
-Content files are put folders per page in: `/perch/kirby_site_name/content/`  
+Content files are put in folders per page: `/perch/kirby_site_name/content/`  
 Copy the files to your Kirby site.  
   
 ## Use in Kirby
