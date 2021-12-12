@@ -40,7 +40,7 @@ The Blueprint files are set up to use this Kirby Plugin.
 
 ## To install Kirby Fields Block plugin
 
-Kirby [Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block) plugin to directly render block fields, allowing for inline editing.
+[Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block) plugin to directly render block fields, allowing for inline editing.
 
 
 
