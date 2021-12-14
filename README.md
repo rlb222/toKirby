@@ -8,12 +8,13 @@
   
 ## Install Perch dashboard app
 1. Copy the files from `\toKirby\` to the `\perch\addons\apps\tokirby\` folder.
-2. Start Perch, goto the dashboard  
-  
+2. Start Perch, goto the dashboard
+   
   
 ## Installation Kirby
 1. Install Kirby, for example https://github.com/getkirby/starterkit
 2. Install Kirby Fields Block: [Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block).
+3. Copy the file `site.yml` from this addon to the root of the Kirby Blueprints folder: `/kirby_site_name/site/blueprints/site.yml` in order to directly see the generated pages in the panel. 
 
 
 ## What the Dashboard app does

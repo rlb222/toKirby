@@ -1,0 +1,18 @@
+# The site blueprint must have a title, the title may be different from the file name
+# The `site.yml` blueprint defines the look of the start page (Dashboard) of the Panel.
+title: kirby_site
+
+# The site blueprint usually provides easy access to all main pages of the site.
+# In this example blueprint, we also show subpages of the `photography` and `notes` pages.
+# More about the site blueprint: https://getkirby.com/docs/reference/panel/blueprints/site
+
+tabs:
+  content:
+    # The layout of this form has two columns:
+    columns:
+      - width: 1/1
+        sections:
+          pages:
+            type: pages
+            #create: default
+
