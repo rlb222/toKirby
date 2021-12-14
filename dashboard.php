@@ -345,13 +345,14 @@ function get_field_tag_attributes($fieldTagAttributes) {
 
 
 
-function filter_raw_textarea($rawTextArea) {
+function filter_raw_textarea($rawTextArea, $block) {
 	// Replace markdown links into '(link: linkurl text: linktext)'
 	$rawTextArea = preg_replace('/\[(.*?)\]\((.*?)\)/', "(link: $2 text: $1)", $rawTextArea);
 	// Replace htlm links into '(link: linkurl text: linktext)'
 	$rawTextArea = preg_replace('\'<a[^>]+href=\"(.*?)\"[^>]*>(.*?)</a>\'', "(link: $1 text: $2)", $rawTextArea);
+
 	// Replace hard returns with \n
-	$rawTextArea = preg_replace("/[\n\r]/", '\n', $rawTextArea);
+	if ($block) $rawTextArea = preg_replace("/[\n\r]/", '\n', $rawTextArea);
 
 	return $rawTextArea;
 }
@@ -415,7 +416,7 @@ function addRegionData($data, $TemplateName, $repeatRegion=false, $regionName=''
 				$thisFieldValue = $myFieldValue;
 				break;
 			case "textarea":
-				$thisFieldValue = filter_raw_textarea($myFieldValue->raw);
+				$thisFieldValue = filter_raw_textarea($myFieldValue->raw, $repeatRegion);
 				break;
 			case "image":
 				// TODO: it's not ready 
