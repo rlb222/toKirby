@@ -14,7 +14,7 @@
 ## Installation Kirby
 1. Install Kirby, for example https://github.com/getkirby/starterkit
 2. Install Kirby Fields Block: [Kirby Fields Block](https://github.com/jongacnik/kirby-fields-block).
-3. Copy the file `site.yml` from this addon to the root of the Kirby Blueprints folder: `/kirby_site_name/site/blueprints/site.yml` in order to directly see the generated pages in the panel. 
+3. Copy the file `site.yml` from this addon to the root of the Kirby Blueprints folder: `/kirby_site_name/site/blueprints/site.yml` in order to directly see the generated pages in the panel. All pages have the status 'unlisted'.
 
 
 ## What the Dashboard app does
@@ -30,9 +30,13 @@ Copy the files to your Kirby site.
   
 ## Use in Kirby
 You can install the Kirby Starter kit and copy exported Perch content into it.
+
 Also install the plugin `Kirby Fields Block` so the repeating regions will have inline editing similar to Perch Admin behaviour.  
 The Blueprint files are set up to use this Kirby Plugin.  
-  
+
+Also copy the file `site.yml` from this installation to overwrite the one in Kirby `/blueprints/site.yml`.
+
+
 ## ToDo
 - images are not written correctly
 - Perch-blocks export not tested
@@ -48,6 +52,9 @@ The Blueprint files are set up to use this Kirby Plugin.
 
 ### List of Pages to export
 <img src="/screenshots/toKirby_pagelist.png" width="600">
+
+### Kirby Panel with imported pages
+<img src="/screenshots/kirby_panel.png" width="600">
 
 
 
