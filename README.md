@@ -1,7 +1,9 @@
 # toKirby
- Perch Dashboard app for exporting content to (Kirby) text files and Kirby Blueprint files
+ Perch Dashboard app for exporting content to (Kirby) text files and Kirby Blueprint files.
+ You can easily install and test it in a few steps.
 
-- This software is in progress, all feedback is welcome.
+- Made public because of a request from Perchology Slack. At this moment it's here to get a general idea of what it should do. You can test it, there will be content, but it's not production ready.   
+- This software is in progress, all feedback and help is welcome.   
   
   
 ## Install Perch dashboard app
