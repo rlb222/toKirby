@@ -41,7 +41,7 @@ Also copy the file `site.yml` from this installation to overwrite the one in Kir
 - images are not written correctly
 - Perch-blocks export not tested
 - Perch Runway not tested
-- rewrite perch templates to Kirby templates (big job)
+- For the frontend: rewrite perch templates to Kirby templates (big job)
 
 
 
